@@ -4,3 +4,5 @@ project(CPPSNAKE)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CPPSNAKE main.cpp)
+
+include_directories(snake_tests)
